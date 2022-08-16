@@ -15,7 +15,7 @@
             $this->load->view('include/footer');
         }
 
-        public function m1_cpp_1(){
+        public function m1_cpp_1() {
             $career_prospects = $this->input->post('Career_prospects');
             // echo $career_prospects;
             $data['title'] = 'This is the second form';
@@ -43,7 +43,7 @@
             $this->load->view('include/footer');
         }
 
-        public function m1_cpp_3(){
+        public function m1_cpp_3() {
             $tsc1 = $this->input->post('tsc1');
             $tsc2 = $this->input->post('tsc2');
             $tsc3 = $this->input->post('tsc3');
