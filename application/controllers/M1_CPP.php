@@ -11,7 +11,7 @@
             $data['title'] = 'Base View for testing';
             $this->load->view('include/header',$data);
             $this->load->view('include/navbar');
-            $this->load->view('features/m1_cpp_0'); //This calls the career path prospect selection fragment for the CPP form
+            $this->load->view('features/module1/m1_cpp_0'); //This calls the career path prospect selection fragment for the CPP form
             $this->load->view('include/footer');
         }
         public function m1_cpp_1(){
@@ -21,7 +21,7 @@
             $data['career_prospect'] = $career_prospects;
             $this->load->view('include/header',$data);
             $this->load->view('include/navbar');
-            $this->load->view('features/m1_cpp_1', $data); //This calls the career path prospect selection fragment for the CPP form
+            $this->load->view('features/module1/m1_cpp_1', $data); //This calls the career path prospect selection fragment for the CPP form
             $this->load->view('include/footer');
         }
         public function m1_cpp_2(){
@@ -37,7 +37,7 @@
             $data['career_prospect'] = $career_prospects;
             $this->load->view('include/header',$data);
             $this->load->view('include/navbar');
-            $this->load->view('features/m1_cpp_2', $data); //This calls the career path prospect selection fragment for the CPP form
+            $this->load->view('features/module1/m1_cpp_2', $data); //This calls the career path prospect selection fragment for the CPP form
             $this->load->view('include/footer');
         }
         public function m1_cpp_3(){
@@ -55,7 +55,7 @@
             $data['career_prospect'] = $career_prospects; 
             $this->load->view('include/header',$data);
             $this->load->view('include/navbar');
-            $this->load->view('features/m1_cpp_3', $data); //This calls the career path prospect selection fragment for the CPP form
+            $this->load->view('features/module1/m1_cpp_3', $data); //This calls the career path prospect selection fragment for the CPP form
             $this->load->view('include/footer');
         }
     }
