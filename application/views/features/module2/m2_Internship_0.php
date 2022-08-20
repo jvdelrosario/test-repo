@@ -9,7 +9,7 @@
     <div class="d-grid gap-2 mx-auto" style="text-align: start ;">
     <a href="<?= base_url('index.php/M2_Internship')?>" class="btn btn-outline-success">Home</a>
     <a href="<?= base_url('index.php/M2_Internship/internship_form')?>" class="btn btn-outline-success">Internship Form</a>
-    <a href="<?= base_url('index.php/M2_Internship/internship_form')?>" class="btn btn-outline-success">Terms and Condition FEU ADT</a>
+    <a href="<?= base_url('index.php/M2_Internship/data_privacy')?>" class="btn btn-outline-success">Terms and Condition FEU ADT</a>
     <a href="<?= base_url('index.php/M2_Internship/internship_form')?>" class="btn btn-outline-success">Student Resume</a>
     <a href="<?= base_url('index.php/M2_Internship/internship_form')?>" class="btn btn-outline-success">Internship Status</a>
     <a href="<?= base_url('index.php/M2_Internship/internship_form')?>" class="btn btn-outline-success">Internship Search</a>

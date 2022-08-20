@@ -21,5 +21,13 @@
             $this->load->view('features/module2/m2_Internship_1',$data); //This calls the career path prospect selection fragment for the CPP form
             $this->load->view('include/footer');  
         }
+        public function data_privacy(){
+            $data['im_header'] = 'FEU Data Privacy Agreements';
+            $data['title'] = 'Data Privacy Agreement';
+            $this->load->view('include/header',$data);
+            $this->load->view('include/navbar');
+            $this->load->view('features/module2/m2_Internship_2',$data); //This calls the career path prospect selection fragment for the CPP form
+            $this->load->view('include/footer');  
+        }
     }
 ?>

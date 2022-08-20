@@ -9,7 +9,7 @@
     <div class="d-grid gap-2 mx-auto" style="text-align: start ;">
     <a href="<?= base_url('index.php/M2_Internship')?>" class="btn btn-outline-success">Home</a>
     <a href="<?= base_url('index.php/M2_Internship/internship_form')?>" class="btn btn-outline-success">Internship Form</a>
-    <a href="<?= base_url('index.php/M2_Internship/internship_form')?>" class="btn btn-outline-success">Terms and Condition FEU ADT</a>
+    <a href="<?= base_url('index.php/M2_Internship/data_privacy')?>" class="btn btn-outline-success">Terms and Condition FEU ADT</a>
     <a href="<?= base_url('index.php/M2_Internship/internship_form')?>" class="btn btn-outline-success">Student Resume</a>
     <a href="<?= base_url('index.php/M2_Internship/internship_form')?>" class="btn btn-outline-success">Internship Status</a>
     <a href="<?= base_url('index.php/M2_Internship/internship_form')?>" class="btn btn-outline-success">Internship Search</a>
@@ -134,6 +134,7 @@
     </div>
   </div>
 </div>
+<!-- Segmentation -->
 <hr>
 <center><h4>IN CASE OF EMERGENCY CONTACT</h4></center>
 <hr style="border-style:dashed; border-width: 2px;">
@@ -149,6 +150,7 @@
     <input type="tel" class="form-control" id="floatingInput" placeholder="Relationship">
     <label for="floatingInput">Relationship </label>
     </div>
+  </div>
   </div>
   <div class="row g-1">
   <div class="col-md">
@@ -176,10 +178,58 @@
     </div>
   </div>
 </div>
-<div class="d-grid gap-2 col-4 mx-auto">
+<div class="row g-1">
+  <div class="col-md-4">
+    <div class="form-floating mb-1">
+    <input type="text" class="form-control" id="floatingInput" placeholder="Name" disabled>
+    <label for="floatingInput">I am applying for the: </label>
+    </div>
+  </div>
+  <div class="col-md-4 mt-3" >
+    <div class="input-group">
+      <div class="input-group-text">
+        <input class="form-check-input mt-10" type="radio"  aria-label="Radio button for following text input" id='term' name="term" value="internship_1">
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with radio button" value="Internship 1" readonly >
+    </div>
+  </div>
+  <div class="col-md-4 mt-3" >
+    <div class="input-group">
+    <div class="input-group-text">
+      <input class="form-check-input mt-1" type="radio"  aria-label="Radio button for following text input" id='term' name= "term" value="internship_2">
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with radio button" value ="Internship 2" readonly>
+  </div>
+    </div>
+  </div>
+  <div class="row g-1">
+  <div class="col-md-4">
+    <div class="form-floating mb-1">
+    <input type="tel" class="form-control" id="floatingInput" placeholder="Relationship" disabled>
+    <label for="floatingInput">Relationship </label>
+    </div>
+  </div>
+  <div class="col-md-8">
+  <div class="form-floating">
+  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+    <option selected>Open this select menu</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+  <label for="floatingSelect">Works with selects</label>
+  </div>
+  </div>
+  </div>
+ 
+  <div class="d-grid gap-2 col-4 mx-auto">
   <button class="btn btn-primary" type="button">Submit</button>
 </div>
+  </div>
+
 </div>
+
+
  
 
 
